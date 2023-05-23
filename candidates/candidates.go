@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	//
 	if len(os.Args) < 3 {
 		fmt.Fprintln(os.Stderr, "Invalid arguments!\nlottery filename count")
 		return
